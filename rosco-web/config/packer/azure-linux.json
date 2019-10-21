@@ -34,7 +34,8 @@
     "image_publisher": "{{user `azure_image_publisher`}}",
     "image_offer": "{{user `azure_image_offer`}}",
     "image_sku": "{{user `azure_image_sku`}}",
-
+    
+    "ssh_pty": "true",
     "location": "{{user `azure_location`}}",
     "vm_size": "Standard_DS2_v2"
   }],
